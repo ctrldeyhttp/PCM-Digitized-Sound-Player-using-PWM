@@ -1,2 +1,6 @@
 # PCM-Digitized-Sound-Player-using-PWM
- I developed an 8086 assembly program for DOSBox, an emulator designed to play PCM digitized sound using the pulse-width modulation technique.
+I developed an 8086 assembly language program tailored for the DOSBox emulator, specifically designed to play PCM digitized audio. The core functionality of this program revolves around employing the pulse-width modulation (PWM) technique to handle audio playback, which is particularly effective for generating audio signals with limited hardware resources. 
+
+To demonstrate the capabilities of this program, I utilized a digitized version of the "Pamantasan ng Lungsod ng Maynila (PLM) official hymn" as the audio sample. This hymn was processed and played back at a sampling rate of 8 kHz to ensure compatibility and performance efficiency within the DOSBox environment. The 8 kHz rate was chosen as a balance between audio quality and the processing capability of the emulator, providing a clear and accurate representation of the hymn while maintaining a manageable data throughput rate.
+
+The choice of the PLM hymn highlights the program’s utility in educational and institutional settings, where such hymns and anthems are often used. The implementation showcases how assembly language can be used to directly manipulate hardware-level operations for audio processing, making it a valuable educational tool for understanding both software and hardware aspects of computing in a historical context.
